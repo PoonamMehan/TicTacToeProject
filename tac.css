@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: #16262E;
+    text-align: center;
+
+}
+
+.container1{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+}
+
+p{
+    font-size: 50px;
+    margin-bottom: 50px;
+    color: #EEE0CB;
+}
+.symbs{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 2vmin;
+}
+
+.symbols{
+    height: 20vmin;
+    width: 20vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+    background-color: #DAB6FC;
+    color: #2E4756;
+    font-size: 10vmin;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+h1{
+    color: #EEE0CB;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+    background-color: #DAB6FC;
+
+    font-size: 8vmin;
+    color: #2E4756;
+}
+#reset-button{
+    padding: 1rem;
+    background-color: #DAB6FC;
+    border-style: none;
+    font-size: 1.25rem;
+    color: #16262E;
+    border-radius: 0.1rem;
+    display: none;
+
+}
+
+#msg{
+    color: #EEE0CB;
+    font-size: 5vmin;
+    
+}
+button:hover{
+    cursor: pointer;
+}
+.new-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #DAB6FC;
+    color: #16262E;
+    border-radius: 0.1rem;
+    border-style: none;
+}
+
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+.draw-msg-container{
+    height: 100vmin;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+.draw-new-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #DAB6FC;
+    color: #16262E;
+    border-radius: 0.1rem;
+    border-style: none;
+}
+.hide{
+    display: none;
+}
+#draw-msg{
+    color: #EEE0CB;
+    font-size: 5vmin;
+}
